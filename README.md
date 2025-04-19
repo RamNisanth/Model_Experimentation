@@ -8,6 +8,9 @@ expected output: ["delivery issue", "delayed", "arrival: end of week"]
 
 I am getting the following output from the models:
 
-miniLM: ['delivery issue', 'regarding delivery', 'delivery', 'arrive', 'way arrive']
+miniLM with keyphrase_ngram_range = (1, 2) and top_n = 5: ['delivery issue', 'regarding delivery', 'delivery', 'arrive', 'way arrive']
+
+miniLM with keyphrase_ngram_range = (1, 3) and top_n = 3: ['reaching regarding delivery', 'arrive end week', 'delivery issue']  
+
 
 
